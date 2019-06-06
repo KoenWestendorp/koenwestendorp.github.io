@@ -25,6 +25,10 @@
         padding: 0;
     }
 
+    time {
+        display: none;
+    }
+
     a {
         color: #FF9A00;
     }
