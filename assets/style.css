@@ -222,22 +222,22 @@
     }
 
     /*404*/
-    .404 {
+    .fourzerofour {
         text-align: center;
         margin-top: 3em;
     }
-    .404 h1 {
+    .fourzerofour h1 {
         font-size: 6em;
         font-style: bold, italic;
         color: #FF9A00;
         padding: 2em;
     }
 
-    .404 p {
+    .fourzerofour p {
         color: #8F8C9C;
 
     }
 
-    .404 a {
+    .fourzerofour a {
         padding: 1em;
     }
