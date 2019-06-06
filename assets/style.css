@@ -108,12 +108,11 @@
         align-items: baseline;
         background: white;
         box-shadow: 2em -5em 3em 6em white;
-        width: 640px;
     }
 
     @media (max-width: 375px) {
         header {
-            width: calc(100% + 4em);
+            /*width: calc(100% + 4em);*/
             flex-direction: column;
             padding-bottom: 1em;
             margin-bottom: 2em;
