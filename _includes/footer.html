@@ -4,9 +4,9 @@
 	{% if page.layout == 'home' %}
 	<div class="blog-nav">
 		{% if paginator.previous_page %}
-			<a href="{{ paginator.previous_page_path }}" class="button">&#8612; newer</a>
+			<a href="{{ paginator.previous_page_path }}" class="button">&#10508; newer</a>
 		{% else %}
-			<p class="button disabled ">&#8612; newer</p>
+			<p class="button disabled ">&#10508; newer</p>
 		{% endif %}
 
 
@@ -16,9 +16,9 @@
 
 
 		{% if paginator.next_page %}
-			<a href="{{ paginator.next_page_path }}" class="button">older &#8614;</a>
+			<a href="{{ paginator.next_page_path }}" class="button">older &#10509;</a>
 		{% else %}
-			<p class="button disabled ">older &#8614;</p>
+			<p class="button disabled ">older &#10509;</p>
 		{% endif %}
 	</div>
 	{% endif %}
