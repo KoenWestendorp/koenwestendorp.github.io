@@ -29,6 +29,7 @@
     .site-title {
         font-style: bold;
         color: #FF9A00;
+        text-transform: lowercase;
     }
 
     .site-title:hover {
@@ -47,6 +48,7 @@
     .article-title {
         font-style: bold-italic;
         text-align: center;
+        text-transform: uppercase;
     }
 
     .article-title:hover {
