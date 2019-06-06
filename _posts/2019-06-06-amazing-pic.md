@@ -11,6 +11,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ullam qui quibusda
 	<p class="caption">Photo by <a href="https://unsplash.com/@aleskrivec" target="_blank">Ales Krivec</a> on Unsplash.</p>
 </div>
 
-{% include img.html caption="Photo by <a href="https://unsplash.com/@aleskrivec" target="_blank">Ales Krivec</a> on Unsplash." url="{% link /assets/img/ales-krivec-623996-unsplash.jpg %}" %}
+
 
 Laborum labore doloribus autem id distinctio ad dignissimos mollitia aspernatur voluptates illo consequatur accusantium aliquam reiciendis, natus iure soluta sequi nam necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, molestiae dolores amet quam veritatis quos nemo ipsum aut. Accusantium culpa nam, voluptatum, autem consequuntur vel est. Qui illum eos minus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam officiis, atque non corrupti excepturi corporis similique nihil, velit, ratione architecto distinctio minus libero aliquid, accusantium! Libero dolorem eaque ut earum!
