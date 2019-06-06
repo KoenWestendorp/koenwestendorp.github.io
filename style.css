@@ -1,3 +1,12 @@
+
+
+
+/* (c) Koen Westendorp, 2019 */
+/*                           */
+/*       Hey there!!         */
+
+
+
 /*DEV*/
     body {
         /*height: 10000px;*/
@@ -118,7 +127,7 @@
         padding-top: 2em;
         padding-bottom: 2em;
         margin-top: 3em;
-        margin-bottom: 0;
+        margin-bottom: 2em;
         border-top: 1px dashed #C3C0D0;
         /*background: #E5E4E9;*/
 
@@ -131,14 +140,6 @@
 
     @media (max-width: 375px) {
         footer {
-
-            padding-bottom: 1em;
-
-
-
-           /* display: flex;
-            justify-content: center;
-            flex-direction: column;*/
         }
     }
 
