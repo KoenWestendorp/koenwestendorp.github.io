@@ -6,21 +6,19 @@
 
 # Title for your site
 # Default title that should be used if a page's title isn't defined
-title: Your awesome title
+title: Koen Westendorp
 
 # Site name
-name: Site name
+name: Koen Westendorp
 
 # Your email address
-email: bruce@wayneenterprises.com
+email: nill
 
 # Description of your site. It's used for Google search results as well as your
 # site's feed.xml site description. You can see it being referenced in
 # _includes/head.html
 description: > # this means to ignore newlines until "baseurl:"
-  "He's the hero Gotham deserves, but not the one it needs right now. So we'll
-  hunt him. Because he can take it. Because he's not our hero. He's a silent
-  guardian, a watchful protector. A dark knight." - Lt. James Gordon
+  
 # baseurl is the subpath of your site, e.g. /blog
 baseurl: ""
 
@@ -32,7 +30,7 @@ url: ""
 # Sizes are references from https://dev.twitter.com/cards/types/summary#reference
 # You can see image being referenced in _includes/og-meta.html and
 # _includes/twitter-meta.html
-image: https://location-of-image.com
+image: nill
 
 # Twitter Open Graph meta
 # Twitter handle for your site, if it has a separate handle. If not, then use
@@ -41,11 +39,6 @@ twitter_site: "@twitter"
 
 # Your Twitter handle
 twitter_username: "@twitter"
-
-# Google Analytics
-# Remove # found before google_analytics to include Google Analytics to your
-# Jekyll site. Then replace UA-########-# with your Google Analytics tracking ID
-# google_analytics: UA-########-#
 
 # Permalinks
 # By default the permalink is in the format of /YYYY/MM/DD/title-of-post-file.html
