@@ -1,8 +1,51 @@
+
+
 <footer>
+	{% if page.layout == 'home' %}
 	<div class="blog-nav">
-		<a href="" class="button disabled">&#8612; earlier</a>
-		<p class="page-number">1/9</p>
-		<a href="" class="button">later &#8614;</a>
+		{% if paginator.previous_page %}
+			<a href="{{ paginator.previous_page_path }}" class="button">&#8612; newer</a>
+		{% else %}
+			<p class="button disabled ">&#8612; newer</p>
+		{% endif %}
+
+
+
+		<p class="page-number">{{ paginator.page }} / {{ paginator.total_pages }}</p>
+
+
+
+		{% if paginator.next_page %}
+			<a href="{{ paginator.next_page_path }}" class="button">older &#8614;</a>
+		{% else %}
+			<p class="button disabled ">older &#8614;</p>
+		{% endif %}
 	</div>
+	{% endif %}
+
+
+
+
+
+
+
+
+
+	{% if page.layout == 'post' %}
+	<div class="blog-nav">
+		{% if page.next.url %}
+			<a href="{{ page.next.url }}" class="button"> &#10508; next</a>
+		{% else %}
+			<p class="button disabled "> &#10508; next</p>
+		{% endif %}
+
+		{% if page.previous.url %}
+			<a href="{{ page.previous.url }}" class="button">previous  &#10509;</a>
+		{% else %}
+			<p class="button disabled ">previous  &#10509;</p>
+		{% endif %}
+	</div>
+	{% endif %}
+
 	<div class="copyright"><p class="copyright"> &copy; Koen Westendorp, {{ site.time | date: '%Y' }}</p></div>
 </footer>

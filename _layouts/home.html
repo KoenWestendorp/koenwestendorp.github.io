@@ -1,12 +1,8 @@
 ---
 layout: default
 ---
-{% comment %}
-  Grabs the latest post from `site.posts` and assigns it to a variable `post`
-{% endcomment %}
 
-{% assign post = site.posts.first %}
-
+{% for post in paginator.posts %}
 <article>
   <a href="{{ post.url | relative_url }}"><h1 class="article-title">{{ post.title | escape }}</h1></a>
   <div class="body">
@@ -14,6 +10,9 @@ layout: default
   </div>
   <p class="date">{{ post.date | date: "%B %-d, %Y" }}</p>
 </article>
+
+{% endfor %}
+
 
 
 
