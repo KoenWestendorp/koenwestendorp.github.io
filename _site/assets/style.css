@@ -127,6 +127,7 @@
             padding-left: 2em;
             padding-right: 2em;
             margin-left: -2em;
+            margin-right:-2em;
         }
 
         header .nav-item:first-child {
