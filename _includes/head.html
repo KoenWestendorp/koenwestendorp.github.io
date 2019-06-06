@@ -1,0 +1,17 @@
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+	<link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+
+	{% include og-meta.html %}
+	{% include twitter-meta.html %}
+	<!-- Homepage home koen westendorp koenw -->
+	<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="HTML, html, CSS, css, Jekyll, jekyll, GitHub, github,netherlands, Koen, Westendorp, koen, westendorp, Koen Westendorp, koen westendorp, biology, biologie, programming, sicco, west, friesland, sible, Jelle Westendorp, instagram, facebook, drachten">
+	<meta name="author" content="Koen Westendorp">
+</head>

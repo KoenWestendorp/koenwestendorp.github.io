@@ -1,0 +1,74 @@
+# The _config.yml file is used to define site wide variables that can be used
+# throughout your Jekyll project. The variables defined here can be access via
+# the site variable like this {{ site.title }}. Additionally, there are some
+# things that are defined to help configure Jekyll such as the plugins and excludes
+# variables.
+
+# Title for your site
+# Default title that should be used if a page's title isn't defined
+title: Your awesome title
+
+# Site name
+name: Site name
+
+# Your email address
+email: bruce@wayneenterprises.com
+
+# Description of your site. It's used for Google search results as well as your
+# site's feed.xml site description. You can see it being referenced in
+# _includes/head.html
+description: > # this means to ignore newlines until "baseurl:"
+  "He's the hero Gotham deserves, but not the one it needs right now. So we'll
+  hunt him. Because he can take it. Because he's not our hero. He's a silent
+  guardian, a watchful protector. A dark knight." - Lt. James Gordon
+# baseurl is the subpath of your site, e.g. /blog
+baseurl: ""
+
+# This is the base URL for your website e.g. http://thebatman.com
+url: ""
+
+# URL to site image. Site image is used when your site is shared via social media
+# 1:1 aspect ratio with a minimum of 144x144 or maximum of 4096x4096 pixels
+# Sizes are references from https://dev.twitter.com/cards/types/summary#reference
+# You can see image being referenced in _includes/og-meta.html and
+# _includes/twitter-meta.html
+image: https://location-of-image.com
+
+# Twitter Open Graph meta
+# Twitter handle for your site, if it has a separate handle. If not, then use
+# your personal handle
+twitter_site: "@twitter"
+
+# Your Twitter handle
+twitter_username: "@twitter"
+
+# Google Analytics
+# Remove # found before google_analytics to include Google Analytics to your
+# Jekyll site. Then replace UA-########-# with your Google Analytics tracking ID
+# google_analytics: UA-########-#
+
+# Permalinks
+# By default the permalink is in the format of /YYYY/MM/DD/title-of-post-file.html
+# To have clean, simpler permalinks of just the title of the post file, uncomment
+# the property below.
+# permalink: /:title/
+
+# Markdown flavor
+markdown: kramdown
+
+# Plugins that your Jekyll project uses
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - readme.md
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

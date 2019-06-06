@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{% include about_block.html %}
+
+{% comment %}
+  Grabs the latest post from `site.posts` and assigns it to a variable `post`
+{% endcomment %}
+
+{% assign post = site.posts.first %}
+
+<article>
+  <header>
+    <h2>
+      <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </h2>
+    <div>{{ post.date | date: "%B %-d, %Y" }}</div>
+  </header>
+  <div>
+    {{ post.excerpt }}
+    <a href="{{ post.url | relative_url }}">More...</a>
+  </div>
+</article>
