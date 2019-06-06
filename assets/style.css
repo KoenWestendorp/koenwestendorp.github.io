@@ -221,6 +221,12 @@
     }
 
     /*404*/
+    .centered {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
     .fourzerofour {
         text-align: center;
         margin-top: 3em;
@@ -229,7 +235,8 @@
         font-size: 6em;
         font-style: bold, italic;
         color: #FF9A00;
-        padding: 2em;
+        padding-top: 1em;
+        padding-bottom: .2em;
     }
 
     .fourzerofour p {
