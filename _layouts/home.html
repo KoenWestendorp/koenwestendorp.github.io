@@ -8,14 +8,23 @@ layout: default
 {% assign post = site.posts.first %}
 
 <article>
-  <header>
+  <a href="{{ post.url | relative_url }}"><h1 class="article-title">{{ post.title | escape }}</h1></a>
+  <div class="body">
+    {{ post.content }}
+  </div>
+  <div class="date">{{ post.date | date: "%B %-d, %Y" }}</div>
+</article>
+
+
+
+<!-- <article>
+
     <h2>
       <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
     </h2>
     <div>{{ post.date | date: "%B %-d, %Y" }}</div>
-  </header>
   <div>
-    {{ post.excerpt }}
+    {{ post.content }}
     <a href="{{ post.url | relative_url }}">More...</a>
   </div>
-</article>
+</article> -->
