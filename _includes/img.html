@@ -1,4 +1,4 @@
 <div class="img">
-	<img src="{{ include.link }}" alt="{{ include.caption }}">
+	<img src="{{ include.url }}" alt="{{ include.caption | strip_html }}">
 	<p class="caption">{{ include.caption }}</p>
 </div>
