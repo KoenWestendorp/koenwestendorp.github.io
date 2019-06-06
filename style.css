@@ -129,19 +129,14 @@
 
     @media (max-width: 375px) {
         footer {
-            flex-direction: column;
+
             padding-bottom: 1em;
-            padding-left: 2em;
-            padding-right: 2em;
-            margin-left: -2em;
+
+
 
            /* display: flex;
             justify-content: center;
             flex-direction: column;*/
-        }
-
-        footer .nav-item:first-child {
-            margin-left: 0;
         }
     }
 
