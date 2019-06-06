@@ -80,6 +80,7 @@
         margin: 0;
         display: flex;
         justify-content: center;
+        min-height: 100%;
     }
 
     /*wrapper*/
@@ -87,6 +88,10 @@
         max-width: 640px;
         padding-left: 2em;
         padding-right: 2em;
+    }
+
+    main {
+        width: 100%;
     }
 
     /*header*/
@@ -103,6 +108,7 @@
         align-items: baseline;
         background: white;
         box-shadow: 2em -5em 3em 6em white;
+        width: 640px;
     }
 
     @media (max-width: 375px) {
@@ -213,5 +219,25 @@
         color: #8F8C9C;
         text-align: right;
         font-style: italic;
-        padding-top: 1em;
+    }
+
+    /*404*/
+    .404 {
+        text-align: center;
+        margin-top: 3em;
+    }
+    .404 h1 {
+        font-size: 6em;
+        font-style: bold, italic;
+        color: #FF9A00;
+        padding: 2em;
+    }
+
+    .404 p {
+        color: #8F8C9C;
+
+    }
+
+    .404 a {
+        padding: 1em;
     }
