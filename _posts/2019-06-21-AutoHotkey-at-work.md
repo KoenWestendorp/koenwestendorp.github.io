@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Amazing picture!"
+title:  "AutoHotkey at work"
 date:   2019-06-20 19:10:40
 ---
 
