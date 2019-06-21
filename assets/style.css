@@ -37,6 +37,10 @@
         opacity: .5;
     }
 
+    h2, h3 {
+        padding-top:1em;
+    }
+
     /*header*/
     .site-title {
         font-style: bold;
