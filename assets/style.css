@@ -15,7 +15,7 @@
 /*TEXT*/
 
     /*general*/
-    p, a, h1, h2, h3, h4, h5, h6, code {
+    p, a, h1, h2, h3, h4, h5, h6 {
         font-family: 'Menlo', monospace;
         color: #0A013E;
         font-size: 1em;
@@ -84,8 +84,13 @@
         background-color: #C3C0D0;
         border-left: 4px solid #8F8C9C;
         width: 100%;
-        padding-top: 1em;
-        padding-bottom: 1em;
+        padding: 2em;
+        
+        font-family: 'Menlo', monospace;
+        color: #0A013E;
+        font-size: 0.7em;
+        margi-top: 1em;
+        margin-bottom: 1em;
     }
 
 /*LAYOUT*/
