@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<article>
+  <a href="{{ page.url | relative_url }}"><h1 class="article-title">{{ page.title | escape }}</h1></a>
+  <p class="caption">Episode {{ page.episode }}, met {{ page.appearences }}</p>
+  <div class="body">
+    {{ page.content }}
+  </div>
+  <p class="date">{{ page.date | date: "%B %-d, %Y" }}</p>
+</article>
+

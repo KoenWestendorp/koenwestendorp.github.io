@@ -218,7 +218,7 @@
         margin-bottom: 2em;
     }
 
-    .img {
+    .img, .audio {
         padding-top: 2em;
         padding-bottom: 2em;
     }
@@ -249,11 +249,18 @@
         content: none;
     }*/
 
-    .img .caption {
+    .img .caption, .audio .caption {
         margin-top: 1em;
         color: #8F8C9C;
         text-align: center;
         font-style: italic;
+    }
+
+    .audio {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .date {

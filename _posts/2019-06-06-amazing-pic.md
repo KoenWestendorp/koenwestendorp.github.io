@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Amazing picture!"
+title:  "Test post"
 date:   2019-06-06 22:11:14
 ---
 

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-25T17:02:58+02:00</updated><id>http://localhost:4000/</id><title type="html">Koen Westendorp</title><subtitle></subtitle><entry><title type="html">Witte Ruis 01</title><link href="http://localhost:4000/2019/07/25/witte-ruis-1.html" rel="alternate" type="text/html" title="Witte Ruis 01" /><published>2019-07-25T17:02:55+02:00</published><updated>2019-07-25T17:02:55+02:00</updated><id>http://localhost:4000/2019/07/25/witte-ruis-1</id><content type="html" xml:base="http://localhost:4000/2019/07/25/witte-ruis-1.html">&lt;div class=&quot;img&quot;&gt;
+	&lt;img src=&quot;/assets/img/427d76f0-0ffd-45a8-8baa-05040f4741ce.jpg&quot; alt=&quot;Dabben met Hugo en Damian. Foto gemaakt door Nova.&quot; /&gt;
+	&lt;p class=&quot;caption&quot;&gt;Dabben met Hugo en Damian. Foto gemaakt door Nova.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Hierbij de eerste aflevering van de podcast die Abel en ik gister opgenomen hebben op Hugo’s feestje. We hebben twintig minuten lang onze keelgaten opengegooid voor jullie genot.&lt;/p&gt;
+
+&lt;p&gt;Verder heb ik ook nog een te overdreven intro soundscape gecreëerd. Hij is eigenlijk veel te lang, excuses daarvoor. Ik heb gepoogd &lt;em&gt;à la&lt;/em&gt; &lt;a href=&quot;https://www.wnycstudios.org/podcasts/radiolab&quot;&gt;Radiolab&lt;/a&gt; met geluiden uit de podcast zelf de intro te bouwen. Met name de ruis, die heb ik grotendeels uit de opgenomen audio gehaald.&lt;/p&gt;
+
+&lt;div class=&quot;audio&quot;&gt;
+	&lt;audio controls=&quot;&quot;&gt;
+		&lt;source src=&quot;/assets/podcasts/witte-ruis-01.mp3&quot; type=&quot;audio/mpeg&quot; alt=&quot;Witte Ruis 01, opgenomen op 25 juni 2019.&quot; /&gt;
+		Your browser does not support the audio element.
+	&lt;/audio&gt;
+	&lt;p class=&quot;caption&quot;&gt;Witte Ruis 01, opgenomen op 25 juni 2019.&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Dabben met Hugo en Damian. Foto gemaakt door Nova.</summary></entry><entry><title type="html">AutoHotkey at work</title><link href="http://localhost:4000/2019/06/21/AutoHotkey-at-work.html" rel="alternate" type="text/html" title="AutoHotkey at work" /><published>2019-06-21T21:10:40+02:00</published><updated>2019-06-21T21:10:40+02:00</updated><id>http://localhost:4000/2019/06/21/AutoHotkey-at-work</id><content type="html" xml:base="http://localhost:4000/2019/06/21/AutoHotkey-at-work.html">&lt;p&gt;Since a few weeks I have been working at a trailerbuilder where I am reorganizing a storageroom. The contents need to be labeled using small stickers. These stickers show a short description of the product, a bar code and the part number. 
+To print a sticker for a part that has already been added to the database, I need to click on a very small button, then click another small button in a pop-up and finally click ‘OK’ in a dialogue box. Now, this really isn’t that much of a hassle, until you take into account that this storage room stores about 350 different parts. Especially when printing a long list of parts this really gets under my skin. So I set out to find a solution.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-autohotkey&quot;&gt;~LButton &amp;amp; E::
+MouseGetPos, xcoord, ycoord
+Click, 220, ycoord
+Sleep, 200
+Click, 134, 273
+Sleep, 200
+Click, 300, 325
+Sleep, 200
+Send, {Enter}
+return
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now this works really well and I decided to try and improve my life a little bit more by making some other hotkeys.&lt;/p&gt;
+
+&lt;h2 id=&quot;trick-for-finding-coordinates&quot;&gt;Trick for finding coordinates&lt;/h2&gt;
+&lt;p&gt;The programming of the clicks required very precise coordinates, since a click a few pixels to the top would result in the printer in the office being occupied, printing page upon page of database entries. I clicked this button accidentally once (like I said, it is located just above the button for printing the labels and also no dialoge box is shown to confirm the printout of around a 1000 pages) and I was fortunate enough that someone in the office knew how to cancel the print.&lt;/p&gt;
+
+&lt;p&gt;This hotkey uses the middle mouse button as a trigger and displays a small messagebox containing the coordinates of your cursor.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-autohotkey&quot;&gt;MButton::
+MouseGetPos, xcoord, ycoord 
+MsgBox, X = %xcoord%, Y = %ycoord%. 
+return
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;reinventing-the-copy-paste-wheel&quot;&gt;Reinventing the copy-paste wheel&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-autohotkey&quot;&gt;~LButton &amp;amp; C::
+KeyWait, LButton
+Sleep, 10
+Send, ^C
+Sleep, 300
+Click, 80, 373
+Sleep, 100
+Send, ^V
+Sleep, 100
+SendInput, {Backspace}{Backspace}
+Sleep, 100
+SendInput, {Enter}
+return
+&lt;/code&gt;&lt;/pre&gt;</content><author><name></name></author><summary type="html">Since a few weeks I have been working at a trailerbuilder where I am reorganizing a storageroom. The contents need to be labeled using small stickers. These stickers show a short description of the product, a bar code and the part number. To print a sticker for a part that has already been added to the database, I need to click on a very small button, then click another small button in a pop-up and finally click ‘OK’ in a dialogue box. Now, this really isn’t that much of a hassle, until you take into account that this storage room stores about 350 different parts. Especially when printing a long list of parts this really gets under my skin. So I set out to find a solution.</summary></entry><entry><title type="html">Test post</title><link href="http://localhost:4000/2019/06/07/amazing-pic.html" rel="alternate" type="text/html" title="Test post" /><published>2019-06-07T00:11:14+02:00</published><updated>2019-06-07T00:11:14+02:00</updated><id>http://localhost:4000/2019/06/07/amazing-pic</id><content type="html" xml:base="http://localhost:4000/2019/06/07/amazing-pic.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ullam qui quibusdam, adipisci commodi esse nam incidunt, repellat rerum! Vero repellendus ducimus omnis earum sed, esse reiciendis eius ratione alias.Lorem ipsum dolor sit amet, &lt;a href=&quot;&quot;&gt;consectetur adipisicing elit&lt;/a&gt;. Quo ullam qui quibusdam, adipisci commodi esse nam incidunt, repellat rerum! Vero repellendus ducimus omnis earum sed, esse reiciendis eius ratione alias. Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
+
+&lt;!-- &lt;div class=&quot;img&quot;&gt;
+	&lt;img src=&quot;/assets/img/ales-krivec-623996-unsplash.jpg&quot; alt=&quot;Photo by Ales Krivec on Unsplash&quot;&gt;
+	&lt;p class=&quot;caption&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@aleskrivec&quot; target=&quot;_blank&quot;&gt;Ales Krivec&lt;/a&gt; on Unsplash.&lt;/p&gt;
+&lt;/div&gt; --&gt;
+
+&lt;div class=&quot;img&quot;&gt;
+	&lt;img src=&quot;/assets/img/ales-krivec-623996-unsplash.jpg&quot; alt=&quot;Photo by Ales Krivec on Unsplash.&quot; /&gt;
+	&lt;p class=&quot;caption&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@aleskrivec&quot; target=&quot;_blank&quot;&gt;Ales Krivec&lt;/a&gt; on Unsplash.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Laborum labore doloribus autem id distinctio ad dignissimos mollitia aspernatur voluptates illo consequatur accusantium aliquam reiciendis, natus iure soluta sequi nam necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, molestiae dolores amet quam veritatis quos nemo ipsum aut. Accusantium culpa nam, voluptatum, autem consequuntur vel est. Qui illum eos minus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam officiis, atque non corrupti excepturi corporis similique nihil, velit, ratione architecto distinctio minus libero aliquid, accusantium! Libero dolorem eaque ut earum!&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ullam qui quibusdam, adipisci commodi esse nam incidunt, repellat rerum! Vero repellendus ducimus omnis earum sed, esse reiciendis eius ratione alias.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ullam qui quibusdam, adipisci commodi esse nam incidunt, repellat rerum! Vero repellendus ducimus omnis earum sed, esse reiciendis eius ratione alias. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</summary></entry></feed>

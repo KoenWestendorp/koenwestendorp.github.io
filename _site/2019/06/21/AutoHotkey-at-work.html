@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<meta name="description" content="Since a few weeks I have been working at a trailerbuilder where I am reorganizing a storageroom. The contents need to be labeled using small stickers. These ...">
+
+	<link rel="stylesheet" href="/assets/style.css">
+
+	<meta property="og:title" content="AutoHotkey at work">
+<meta property="og:url" content="http://localhost:4000/2019/06/21/AutoHotkey-at-work.html">
+<meta property="og:site_name" content="Koen Westendorp">
+<meta property="og:description" content="Since a few weeks I have been working at a trailerbuilder where I am reorganizing a storageroom. The contents need to be labeled using small stickers. These ...">
+<meta property="og:image" content="nill">
+<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@twitter">
+<meta name="twitter:creator" content="@twitter">
+<meta name="twitter:title" content="AutoHotkey at work">
+<meta name="twitter:description" content="Since a few weeks I have been working at a trailerbuilder where I am reorganizing a storageroom. The contents need to be labeled using small stickers. These ...">
+<meta name="twitter:url" content="http://localhost:4000/2019/06/21/AutoHotkey-at-work.html">
+<meta name="twitter:image" content="nill">
+	<!-- Homepage home koen westendorp koenw -->
+	<title>AutoHotkey at work</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="HTML, html, CSS, css, Jekyll, jekyll, GitHub, github,netherlands, Koen, Westendorp, koen, westendorp, Koen Westendorp, koen westendorp, biology, biologie, programming, sicco, west, friesland, sible, Jelle Westendorp, instagram, facebook, drachten">
+	<meta name="author" content="Koen Westendorp">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+	<h1 class="site-title"><a class="site-title" href="/">Koen Westendorp</a></h1>
+	<div class="nav">
+		<a href="/" class="nav-item home">blog</a>
+		<a href="/about" class="nav-item about">about</a>
+		<a href="/contact" class="nav-item contact">contact</a>
+	</div>
+</header>
+    <main>
+      <article>
+  <a href="/2019/06/21/AutoHotkey-at-work.html"><h1 class="article-title">AutoHotkey at work</h1></a>
+  <div class="body">
+    <p>Since a few weeks I have been working at a trailerbuilder where I am reorganizing a storageroom. The contents need to be labeled using small stickers. These stickers show a short description of the product, a bar code and the part number. 
+To print a sticker for a part that has already been added to the database, I need to click on a very small button, then click another small button in a pop-up and finally click ‘OK’ in a dialogue box. Now, this really isn’t that much of a hassle, until you take into account that this storage room stores about 350 different parts. Especially when printing a long list of parts this really gets under my skin. So I set out to find a solution.</p>
+
+<pre><code class="language-autohotkey">~LButton &amp; E::
+MouseGetPos, xcoord, ycoord
+Click, 220, ycoord
+Sleep, 200
+Click, 134, 273
+Sleep, 200
+Click, 300, 325
+Sleep, 200
+Send, {Enter}
+return
+</code></pre>
+
+<p>Now this works really well and I decided to try and improve my life a little bit more by making some other hotkeys.</p>
+
+<h2 id="trick-for-finding-coordinates">Trick for finding coordinates</h2>
+<p>The programming of the clicks required very precise coordinates, since a click a few pixels to the top would result in the printer in the office being occupied, printing page upon page of database entries. I clicked this button accidentally once (like I said, it is located just above the button for printing the labels and also no dialoge box is shown to confirm the printout of around a 1000 pages) and I was fortunate enough that someone in the office knew how to cancel the print.</p>
+
+<p>This hotkey uses the middle mouse button as a trigger and displays a small messagebox containing the coordinates of your cursor.</p>
+
+<pre><code class="language-autohotkey">MButton::
+MouseGetPos, xcoord, ycoord 
+MsgBox, X = %xcoord%, Y = %ycoord%. 
+return
+</code></pre>
+
+<h2 id="reinventing-the-copy-paste-wheel">Reinventing the copy-paste wheel</h2>
+
+<pre><code class="language-autohotkey">~LButton &amp; C::
+KeyWait, LButton
+Sleep, 10
+Send, ^C
+Sleep, 300
+Click, 80, 373
+Sleep, 100
+Send, ^V
+Sleep, 100
+SendInput, {Backspace}{Backspace}
+Sleep, 100
+SendInput, {Enter}
+return
+</code></pre>
+
+
+  </div>
+  <p class="date">June 21, 2019</p>
+</article>
+
+
+    </main>
+    
+
+<footer>
+	
+
+
+
+
+
+
+
+
+
+	
+	<div class="blog-nav">
+		
+			<a href="/2019/07/25/witte-ruis-1.html" class="button"> &#10508; next</a>
+		
+
+		
+			<a href="/2019/06/07/amazing-pic.html" class="button">previous  &#10509;</a>
+		
+	</div>
+	
+
+	<div class="copyright"><p class="copyright"> &copy; Koen Westendorp, 2019</p></div>
+</footer>
+  </div>
+</body>
+</html>
+
+
+<!-- <body>
+    
+      <header>
+
+      </header>
+      <main>
+        <article>
+          <a href="#"><h1 class="article-title">Article Title</h1></a>
+          <div class="body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ullam qui quibusdam, adipisci commodi esse nam incidunt, repellat rerum! Vero repellendus ducimus omnis earum sed, esse reiciendis eius ratione alias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum labore doloribus autem id distinctio ad dignissimos mollitia aspernatur voluptates illo consequatur accusantium aliquam reiciendis, natus iure soluta sequi nam necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, molestiae dolores amet quam veritatis quos nemo ipsum aut. Accusantium culpa nam, voluptatum, autem consequuntur vel est. Qui illum eos minus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam officiis, atque non corrupti excepturi corporis similique nihil, velit, ratione architecto distinctio minus libero aliquid, accusantium! Libero dolorem eaque ut earum!</p>
+          </div>
+        </article>
+        <article>
+          <a href="#"><h1 class="article-title">Article Title</h1></a>
+          <div class="body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ullam qui quibusdam, adipisci commodi esse nam incidunt, repellat rerum! Vero repellendus ducimus omnis earum sed, esse reiciendis eius ratione alias.Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing elit</a>. Quo ullam qui quibusdam, adipisci commodi esse nam incidunt, repellat rerum! Vero repellendus ducimus omnis earum sed, esse reiciendis eius ratione alias. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <div class="img">
+              <img src="assets/img/ales-krivec-623996-unsplash.jpg" alt="Photo by Ales Krivec on Unsplash">
+              <p class="caption">Photo by <a href="https://unsplash.com/@aleskrivec">Ales Krivec</a> on Unsplash.</p>
+            </div>
+            <p> Laborum labore doloribus autem id distinctio ad dignissimos mollitia aspernatur voluptates illo consequatur accusantium aliquam reiciendis, natus iure soluta sequi nam necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, molestiae dolores amet quam veritatis quos nemo ipsum aut. Accusantium culpa nam, voluptatum, autem consequuntur vel est. Qui illum eos minus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam officiis, atque non corrupti excepturi corporis similique nihil, velit, ratione architecto distinctio minus libero aliquid, accusantium! Libero dolorem eaque ut earum!</p>
+          </div>
+        </article>
+        <article>
+          <a href="#"><h1 class="article-title">Article Title</h1></a>
+          <div class="body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ullam qui quibusdam, adipisci commodi esse nam incidunt, repellat rerum! Vero repellendus ducimus omnis earum sed, esse reiciendis eius ratione alias.</p>
+          </div>
+        </article>
+      </main>
+      <footer>
+        
+      </footer>
+    
+  </body> -->

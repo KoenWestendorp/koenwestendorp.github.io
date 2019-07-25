@@ -5,11 +5,9 @@ date:   2019-06-21 19:10:40
 ---
 
 Since a few weeks I have been working at a trailerbuilder where I am reorganizing a storageroom. The contents need to be labeled using small stickers. These stickers show a short description of the product, a bar code and the part number. 
-To print a sticker for a part that has already been added to the database, I need to click on a very small button, then click another small button in a pop-up and finally click 'OK' in a dialogue box. Now, this really isn't that much of a hassle, until you take into account that this storage room stores about 350 different parts. Especially when printing a long list of parts this really gets under my skin. So I decided to find a solution. 
+To print a sticker for a part that has already been added to the database, I need to click on a very small button, then click another small button in a pop-up and finally click 'OK' in a dialogue box. Now, this really isn't that much of a hassle, until you take into account that this storage room stores about 350 different parts. Especially when printing a long list of parts this really gets under my skin. So I set out to find a solution. 
 
-## header
-
-{% highlight ruby %}
+```autohotkey
 ~LButton & E::
 MouseGetPos, xcoord, ycoord
 Click, 220, ycoord
@@ -20,7 +18,7 @@ Click, 300, 325
 Sleep, 200
 Send, {Enter}
 return
-{% endhighlight%}
+```
 
 Now this works really well and I decided to try and improve my life a little bit more by making some other hotkeys.
 
