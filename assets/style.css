@@ -15,8 +15,8 @@
 /*TEXT*/
 
     /*general*/
-    p, a, h1, h2, h3, h4, h5, h6 {
-        font-family: 'Menlo', monospace;
+    p, a, h1, h2, h3, h4, h5, h6, pre, code, kbd {
+        font-family: 'SF Mono', 'Menlo', monospace;
         color: #0A013E;
         font-size: 1em;
         text-decoration: none;
@@ -38,7 +38,7 @@
     }
 
     h2, h3 {
-        padding-top:1em;
+        padding-top: 1em;
     }
 
     /*header*/
@@ -80,18 +80,32 @@
         opacity: 1;
     }
     
-    code {
-        background-color: #C3C0D0;
-        border-left: 4px solid #8F8C9C;
-        width: 100%;
+    pre {
         padding: 2em;
+    }
+
+    figure {
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+    }
+
+    pre, code, kbd {
+        background-color: #f0f0f0;
+        /*border-left: 4px solid #8F8C9C;*/
+        white-space: pre-wrap;
+        width: auto;
+        border-radius: 4px;
         
-        font-family: 'Menlo', monospace;
+        font-family: 'SF Mono', 'Menlo', monospace;
         color: #0A013E;
-        font-size: 0.7em;
-        margi-top: 1em;
+        font-size: 1em;
+        margin-top: 1em;
         margin-bottom: 1em;
     }
+
+/*    code::before {
+        content: attr(class)
+    }*/
 
 /*LAYOUT*/
     /*body*/
@@ -117,7 +131,7 @@
     @media (min-width: 700px) {
         header {
             min-width: 640px;
-        }
+       }
     }
 
     header {
