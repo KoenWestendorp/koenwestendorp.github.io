@@ -5,7 +5,7 @@ date:   2019-11-17 16:26:30
 published: true
 ---
 
-{% include img.html url='/IMG_6363.jpg' caption='' %}
+{% include img.html url='/assets/img/IMG_6363.jpg' caption='' %}
 
 <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/nl/playlist/aletta-jacobshal/pl.u-xlyNNxdFGr6yrN?l=en"></iframe>
 
@@ -46,6 +46,7 @@ You take your bike and leave Zernike behind you. While riding Via the streets of
 17. Cherushii — Everything Is in Color
 18. Coldplay — Yellow
 19. VRIL — In Via
+
 (19 tracks | 2 hours, 2 minutes)
 
 Groetjes.
