@@ -47,6 +47,6 @@ You take your bike and leave Zernike behind you. While riding Via the streets of
 18. Coldplay — Yellow
 19. VRIL — In Via
 
-(19 tracks | 2 hours, 2 minutes)
+(19 tracks \| 2 hours, 2 minutes)
 
 Groetjes.
