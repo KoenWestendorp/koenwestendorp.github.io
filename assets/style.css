@@ -15,7 +15,7 @@
 /*TEXT*/
 
     /*general*/
-    p, a, h1, h2, h3, h4, h5, h6, pre, code, kbd {
+    p, a, h1, h2, h3, h4, h5, h6, pre, code, kbd, li{
         font-family: 'SF Mono', 'Menlo', monospace;
         color: #0A013E;
         font-size: 1em;
