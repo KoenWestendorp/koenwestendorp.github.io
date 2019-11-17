@@ -11,13 +11,21 @@
         /*height: 10000px;*/
     }
 
+/*VARS*/
+    :root {
+        /*--text-color: #0A013E; */
+        /*--accent-color: #FF9A00; F05D23*/
+        --text-color: #01000A; 
+        --accent-color: #FF9A00;
+    }  
 
-/*TEXT*/
+
+/*TEXT
 
     /*general*/
     p, a, h1, h2, h3, h4, h5, h6, pre, code, kbd, li{
         font-family: 'SF Mono', 'Menlo', monospace;
-        color: #0A013E;
+        color: var(--text-color);
         font-size: 1em;
         text-decoration: none;
         line-height: 1.5em;
@@ -34,7 +42,7 @@
     }
 
     a {
-        color: #FF9A00;
+        color: var(--accent-color);
     }
 
     a:hover {
@@ -48,7 +56,7 @@
     /*header*/
     .site-title {
         font-style: bold;
-        color: #FF9A00;
+        color: var(--accent-color);
         text-transform: lowercase;
     }
 
@@ -60,7 +68,7 @@
     .nav-item {
         margin-left: 1em;
         font-style: italic;
-        color: #FF9A00;
+        color: var(--accent-color);
        /* text-align: right;*/
     }
 
@@ -72,7 +80,7 @@
     }
 
     .article-title:hover {
-        color: #FF9A00;
+        color: var(--accent-color);
     }
 
     /*buttons*/
@@ -101,7 +109,7 @@
         border-radius: 4px;
         
         font-family: 'SF Mono', 'Menlo', monospace;
-        color: #0A013E;
+        color: var(--text-color);
         font-size: 1em;
         margin-top: 1em;
         margin-bottom: 1em;
@@ -287,7 +295,7 @@
     .fourzerofour h1 {
         font-size: 6em;
         font-style: bold, italic;
-        color: #FF9A00;
+        color: var(--accent-color);
         padding-top: 1em;
         padding-bottom: .2em;
     }
