@@ -12,7 +12,7 @@ Today I made my first macOS app using [SwiftUI](https://developer.apple.com/xcod
 
 My app empowers its users to transform any normal, every-day sentence into a comedic masterpiece. This unique and distinguished writing style that this app enables my clients to adopt, is often referred to as "the apex of human comedic history", "literally the funniest shit I've ever seen", "funnier than that guy who turned himself into a pickle", or among some obscure corners of the world-wide web: *mocking Spongebob talk*.
 
-![Light mode...](/assets/img/mocking_text_app_light.png)
+{% include img.html url='/assets/img/mocking_text_app_light.png' caption='Light mode...' %}
 
 Now, this skill used to be hard to master, requiring years of training and too much hard work for the average millennial to handle. People used to sit at their keyboards, just staring at the screen in awe of those who have mastered this ancient craft, failing to achieve it themselves. It is said that the repeated pressing and releasing of the shift key is the biggest challenge for the amateurs among us. 
 
@@ -20,6 +20,6 @@ Due to the recent SARS-CoV-2 / COVID-19 outbreak in The Netherlands, and the sub
 
 But then I thought that it was too hard so I created an app that does it for me, bye.
 
-![...and dark mode.](/assets/img/mocking_text_app_dark.png)
+{% include img.html url='/assets/img/mocking_text_app_dark.png' caption='...and dark mode.' %}
 
 Download it [here](https://github.com/KoenWestendorp/koenwestendorp.github.io/blob/master/assets/SwiftUIMenuBar.app.zip?raw=true), if you trust me, at least...
