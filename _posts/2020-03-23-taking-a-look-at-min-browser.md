@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Taking a look at the Min browser again"
-date:   2020-03-23 10:03:42
-published: false
+date:   2020-03-23 10:03:42+0100
+published: true
 ---
 
 Dear me, and anyone interested in reading about this,\
@@ -55,7 +55,7 @@ My concerns for battery life, memory usage, general performance and proneness to
 {% include img.html url='/assets/img/Safari-floating.png' caption='Trusty Safari.' %}
 
 ## Conclusion?
-I like Min, the idea of Min. Its power-user centric philosophy of design, the fact it uses a count-from-zero approach which warms my heart, and also how it looks, [to be Frank](&&&). But the reason I have not continued using this cute browser from the point I discovered it, is because of my consciousness of the potential performance downsides it might bring. At the time I never thoroughly researched that feeling. Also, I feel like its performance might have improved quite a bit since 2018, the project is [actively maintained on GitHub](https://github.com/minbrowser/min). So let's do it now.
+I like Min, the idea of Min. Its power-user centric philosophy of design, the fact it uses a count-from-zero approach which warms my heart, and also how it looks, [to be Frank](https://youtu.be/0lFsS3PDoZA). But the reason I have not continued using this cute browser from the point I discovered it, is because of my consciousness of the potential performance downsides it might bring. At the time I never thoroughly researched that feeling. Also, I feel like its performance might have improved quite a bit since 2018, the project is [actively maintained on GitHub](https://github.com/minbrowser/min). So let's do it now.
 
 Hopefully I am able to get some consistent tests of its performance, now in 2020. If that is the case, I will publish them here of course :.)
 
