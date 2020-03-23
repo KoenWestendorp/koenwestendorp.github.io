@@ -2,7 +2,7 @@
 layout: post
 title:  "Taking a look at the Min browser again"
 date:   2020-03-23 10:03:42
-published: true
+published: false
 ---
 
 Dear me, and anyone interested in reading about this,\
