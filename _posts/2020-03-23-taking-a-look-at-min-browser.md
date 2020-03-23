@@ -19,7 +19,7 @@ This experience of featherlight and lightning fast browsing on Safari, made me t
 ## The Min browser
 Min takes a different approach to web browsing. It has been designed with power users as its central audience, leaving out and abstracting away almost all GUI buttons and allowing its users to rely solely on keyboard shortcuts for navigating the minimal UI it has. The focus is on the site, exactly where it belongs if you ask me. 
 
-
+{% include img.html url='/assets/img/Min-floating.png' caption='Isn't it just really pretty‽' %}
 
 Now, this makes it the case that there is a little bit of a learning curve to Min, but for me it was not bad at all, since I use Safari by keyboard shortcut control almost entirely, and the shortcuts are quite similar.
 
@@ -55,7 +55,7 @@ My concerns for battery life, memory usage, general performance and proneness to
 
 
 ## Conclusion?
-I like Min, the idea of Min. Its power-user centric philosophy of design, the fact it uses a count-from-zero approach which warms my heart, and also how it looks, [to be Frank](https://youtu.be/0lFsS3PDoZA). But the reason I have not continued using this cute browser from the point I discovered it, is because of my consciousness of the potential performance downsides it might bring. At the time I never thoroughly researched that feeling. Also, I feel like its performance might have improved quite a bit since 2018, the project is [actively maintained on GitHub](https://github.com/minbrowser/min). So let's do it now.
+I like Min, the idea of Min. Its power-user centric philosophy of design, the fact it uses a count-from-zero approach which warms my heart, and also how it looks, [to be Frank](https://youtu.be/0lFsS3PDoZA?t=2656). But the reason I have not continued using this cute browser from the point I discovered it, is because of my consciousness of the potential performance downsides it might bring. At the time I never thoroughly researched that feeling. Also, I feel like its performance might have improved quite a bit since 2018, the project is [actively maintained on GitHub](https://github.com/minbrowser/min). So let's do it now.
 
 Hopefully I am able to get some consistent tests of its performance, now in 2020. If that is the case, I will publish them here of course :.)
 
