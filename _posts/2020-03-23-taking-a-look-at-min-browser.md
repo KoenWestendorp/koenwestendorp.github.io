@@ -5,12 +5,12 @@ date:   2020-03-23 10:03:42+0100
 published: true
 ---
 
-Dear me, and anyone interested in reading about this,\
+Dear me, and anyone interested in reading about this,<br>
 Over the past week (Corona week 0) I have had the chance to start fresh with my new MacBook Pro. Well, new... It is the early 2015 Retina 13 inch model, and I was able to get it for a really good price using money I made over the summer. (For anyone interested: 2.9GHz Dual-Core i5 with 16GB memory). Unfortunately, the context of this replacement is my 2011 Air finally breaking down into a hardly usable state after 7 years of featherlight and honourable service. 
 
 Still, I've been having a fantastic time starting with a clean slate. (Actually thoroughly enjoying macOS Catalina, which I did not think would be the case.) Setting up [iTerm](https://iterm2.com/) as my terminal, installing some of my daily driver terminal applications using [HomeBrew](https://brew.sh/). Also, I am starting to get to know [_zshell_](https://en.wikipedia.org/wiki/Z_shell), which I plan sticking with for a while in favour of [_fish shell_](https://fishshell.com), but that is an article for another time.
 
-
+{% include img.html url='/assets/img/setup-march-2020.jpeg' caption='My current setup.' %}
 
 Interestingly I have noticed that Safari has gotten quite a bit faster on Catalina compared to High Sierra on my Air, also when compensating for processor speed (of course). This is the case for very light static pages, but also for web apps and sites like the ever performance-hungry Reddit. I have found that it eats away quite a bit less RAM compared to the High Sierra build, and the performance is improved by the truly wonderful 16GB of RAM on this new Mac, too.
 
@@ -59,7 +59,7 @@ I like Min, the idea of Min. Its power-user centric philosophy of design, the fa
 
 Hopefully I am able to get some consistent tests of its performance, now in 2020. If that is the case, I will publish them here of course :.)
 
-Well, goodbye and please cough into your elbow. \
+Well, goodbye and please cough into your elbow. <br>
 Sent from my ~~iPhone~~ Min browser.
 
 
