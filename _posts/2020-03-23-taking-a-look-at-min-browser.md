@@ -10,7 +10,7 @@ Over the past week (Corona week 0) I have had the chance to start fresh with my 
 
 Still, I've been having a fantastic time starting with a clean slate. (Actually thoroughly enjoying macOS Catalina, which I did not think would be the case.) Setting up [iTerm](https://iterm2.com/) as my terminal, installing some of my daily driver terminal applications using [HomeBrew](https://brew.sh/). Also, I am starting to get to know [_zshell_](https://en.wikipedia.org/wiki/Z_shell), which I plan sticking with for a while in favour of [_fish shell_](https://fishshell.com), but that is an article for another time.
 
-{% include img.html url='/assets/img/setup-march-2020.jpeg.png' caption='My current setup.' %}
+{% include img.html url='/assets/img/setup-march-2020.jpeg' caption='My current setup.' %}
 
 Interestingly I have noticed that Safari has gotten quite a bit faster on Catalina compared to High Sierra on my Air, also when compensating for processor speed (of course). This is the case for very light static pages, but also for web apps and sites like the ever performance-hungry Reddit. I have found that it eats away quite a bit less RAM compared to the High Sierra build, and the performance is improved by the truly wonderful 16GB of RAM on this new Mac, too.
 
