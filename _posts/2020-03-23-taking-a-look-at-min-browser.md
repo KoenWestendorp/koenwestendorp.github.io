@@ -19,7 +19,7 @@ This experience of featherlight and lightning fast browsing on Safari, made me t
 ## The Min browser
 Min takes a different approach to web browsing. It has been designed with power users as its central audience, leaving out and abstracting away almost all GUI buttons and allowing its users to rely solely on keyboard shortcuts for navigating the minimal UI it has. The focus is on the site, exactly where it belongs if you ask me. 
 
-{% include img.html url='/assets/img/Min-floating.png' caption='Isn't it just really pretty‽' %}
+{% include img.html url='/assets/img/Min-floating.png' caption='Isn't it just really pretty?!' %}
 
 Now, this makes it the case that there is a little bit of a learning curve to Min, but for me it was not bad at all, since I use Safari by keyboard shortcut control almost entirely, and the shortcuts are quite similar.
 
