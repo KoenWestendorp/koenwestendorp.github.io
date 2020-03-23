@@ -19,7 +19,7 @@ This experience of featherlight and lightning fast browsing on Safari, made me t
 ## The Min browser
 Min takes a different approach to web browsing. It has been designed with power users as its central audience, leaving out and abstracting away almost all GUI buttons and allowing its users to rely solely on keyboard shortcuts for navigating the minimal UI it has. The focus is on the site, exactly where it belongs if you ask me. 
 
-{% include img.html url='/assets/img/Min-floating.png' caption='Isn't it just really pretty?!' %}
+{% include img.html url='/assets/img/Min-floating.png' caption='So pretty right?!' %}
 
 Now, this makes it the case that there is a little bit of a learning curve to Min, but for me it was not bad at all, since I use Safari by keyboard shortcut control almost entirely, and the shortcuts are quite similar.
 
@@ -28,7 +28,7 @@ Compare that to the Min title bar, which comes in at a 36pt height, _with tabs_!
 
 (It must be noted that I use the screen scaling setting between the default and smallest, where most people tend to use it on Retina/UHD devices.)
 
-
+{% include img.html url='/assets/img/top-bar-height-comparison.png' caption='Because screen space efficiency and productivity are basically the same ;)' %}
 
 Well, that is not that important, but one of the things I liked most about Min-and still do love-is its minimal approach to UI. When you spend a large part of your day browsing, researching and reading on the interwebs, small things become important. This is all not to detract from my love for Safari's UI, which is excellent in my opinion, and which I also love to the bone. 
 
@@ -46,13 +46,13 @@ Over the past few years, the people behind Electron (it is maintained by GitHub,
 
 Also, many Electron apps already exist as web apps, and honestly, feel much more at home in their browser home, than as an actual app. So, for your sanity and mine, please just use your browser to use Slack, WhatsApp, Discord, Gmail _et cetera_...
 
-
+{% include img.html url='/assets/img/slack-bad-native-good.jpeg' caption='sLaCk bAd nAtIvE GoOd' %}
 
 For me an app being based on Electron or a similar framework actually is reason not to try something at all. To me, this is where Min as a browser would break down, normally. But, I do not think it is fair for me, to exclusively see Min in this light. This is because Min is a browser. Min is a browser, and so are all Electron apps. Normally this is the problem I have with them, but since Min is in its function a browser, this might not be such a bad think at all. 
 
 My concerns for battery life, memory usage, general performance and proneness to bugs still stand, though, but I am giving Min a chance. By which I mean that I will be stress testing it over the coming weeks. I am going to try to devise a protocol to consistently test performance across a few browsers, and on a few different platforms (might do a little Raspberry Pi test, too.) 
 
-
+{% include img.html url='/assets/img/Safari-floating.png' caption='Trusty Safari.' %}
 
 ## Conclusion?
 I like Min, the idea of Min. Its power-user centric philosophy of design, the fact it uses a count-from-zero approach which warms my heart, and also how it looks, [to be Frank](https://youtu.be/0lFsS3PDoZA?t=2656). But the reason I have not continued using this cute browser from the point I discovered it, is because of my consciousness of the potential performance downsides it might bring. At the time I never thoroughly researched that feeling. Also, I feel like its performance might have improved quite a bit since 2018, the project is [actively maintained on GitHub](https://github.com/minbrowser/min). So let's do it now.
