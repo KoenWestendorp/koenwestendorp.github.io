@@ -46,7 +46,7 @@ The filtered list of URLs will then be downloaded at a manageable resolution lik
 
 In its current iteration the site is based around a yellow primary color, typeset in Helvetica Neue (or its fallbacks). The different functional sections like 'Submit a video' and 'Recently submitted' are divided by big, bold headings and the submission interface consists of large, radiant elements which are implemented to be nice and `tab`-able, for the pro users (me). This is achieved using robust and visible `:focus` pseudo-class styling, which I like more than necessary.
 
-{% include img.html url='/assets/img/arkyve-figma-2.png' caption='A look into the Figma file.' %}
+{% include img.html url='/assets/img/arkyve-figma-2.png' caption='' %}
 
 Also, I subconsciously designed it to look early like [Vox.com](https://vox.com/), which I only realised after I settled on the design. But this does not bother be at all, because Vox is one of my favourite websites on so many levels, 'bro'.
 
@@ -57,7 +57,7 @@ I am using the *Vapor* server-side *Swift* framework, so that's really cool I th
 For the styling I am using *Sass*, which I parse into the assets folder using a cli converter. 
 The database I plan on using is *SQLite* for no particular reason, I honestly don't know that much about databases and their merits and my demands are really quite minute, so it probably doesn't matter a lot.
 
-{% include img.html url='/assets/img/arkyve-code-1.png' caption='Honestly, I really like writing CSS! (When it's SCSS at least.)' %}
+{% include img.html url='/assets/img/arkyve-code-1.png' caption='Honestly, I really like writing CSS! (When it is SCSS at least.)' %}
 
 Currently, it is not on my GitHub page, because I am still trying to make a bare-bones, working prototype. After I have achieved that, I will rewrite it with the power of hindsight and create the actual production implementation.
 
