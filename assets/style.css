@@ -13,8 +13,8 @@
 
 /**/
 	@font-face {
-		font-family: JetBrainsMono;
-		src: url(JetBrainsMono-Regular.woff);
+		font-family: 'JetBrains Mono';
+		src: url(/assets/fonts/JetBrainsMono-Regular.woff2);
 	}
 
 /*VARS*/
@@ -30,7 +30,7 @@
 
 	/*general*/
 	p, a, h1, h2, h3, h4, h5, h6, pre, code, kbd, li{
-		font-family: 'JetBrainsMono', 'SF Mono', 'Menlo', monospace;
+		font-family: 'JetBrains Mono', 'SF Mono', 'Menlo', monospace;
 		color: var(--text-color);
 		font-size: 1em;
 		text-decoration: none;
