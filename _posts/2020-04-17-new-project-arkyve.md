@@ -64,7 +64,7 @@ Currently, it is not on my GitHub page, because I am still trying to make a bare
 ## In summary
 Okay, cool thing I am working on etc. 
 
-If this thing peaks your interest, please, please [email](/contact/) me, so we can work on this together :) 
+If this thing peaks your interest, please, please [email](/contact) me, so we can work on this together :) 
 
 Met vriendelijke 'de moeder', 
 Koen
