@@ -11,11 +11,35 @@
 		/*height: 10000px;*/
 	}
 
-/**/
+/*FONTS*/
 	@font-face {
 		font-family: 'JetBrains Mono';
+		font-weight: normal;
+		font-style: normal;
 		src: url(/assets/fonts/JetBrainsMono-Regular.woff2);
 	}
+
+	@font-face {
+		font-family: 'JetBrains Mono';
+		font-weight: normal;
+		font-style: italic;
+		src: url(/assets/fonts/JetBrainsMono-Italic.woff2);
+	}
+
+	@font-face {
+		font-family: 'JetBrains Mono';
+		font-weight: bold;
+		font-style: normal;
+		src: url(/assets/fonts/JetBrainsMono-Bold.woff2);
+	}
+
+	@font-face {
+		font-family: 'JetBrains Mono';
+		font-weight: bold;
+		font-style: italic;
+		src: url(/assets/fonts/JetBrainsMono-Bold-Italic.woff2);
+	}
+
 
 /*VARS*/
 	:root {
