@@ -1,0 +1,14 @@
+{
+    "name": "Koen Westendorp",
+    "short_name": "Koen Westendorp",
+    "icons": [
+        {
+            "src": "/android-chrome-48x48.png?v=1",
+            "sizes": "48x48",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ff9a00",
+    "background_color": "#ff9a00",
+    "display": "standalone"
+}
